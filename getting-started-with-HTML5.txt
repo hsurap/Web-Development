@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <title> My Site </title>
+    
+    </head>
+    
+    <body>
+    
+                        <!-- HEADING-->
+        <h1 style="color: blueviolet">This is heading </h1>
+        <h2 style="color: aqua">This is subheading </h2>
+        
+        <a href= "#">This is a Link</a>
+        
+                   <!--     UNORDER LIST-->
+        <ul style="list-style-type: circle"> 
+            
+            <li>red</li>
+            <li>green</li>
+            <li>blue</li>
+        
+        </ul>
+        
+                    <!--      ORDER LIST-->
+        <ol type="I">
+            <li>apple</li>
+            <li>mango</li>
+            <li>banana</li>
+        
+        </ol>
+        
+                    <!--       DISCRIPRION LIST-->
+        <dl>
+            <dt>egg</dt>
+            <dd>white in color</dd>
+            <dt>apple</dt>
+            <dd>red in color</dd>
+        
+        </dl>
+        
+                    <!--       link on image-->
+        <a href="#">
+        
+             <img alt="mango" src="https://thediplomat.com/wp-content/uploads/2016/04/sizes/td-story-s-1/thediplomat_2016-04-26_19-22-13.jpg" width="100px" height="100px">
+
+        </a>
+        
+                <!--        FORM        --->
+        <form method="post"> <!-- not get methord-->
+            
+            username: <input name="username" type="text"><br>
+            email: <input name="email" type="email"><br>
+            password: <input name="password " type="password"><br>
+            DOB: <input name="date" type="date"><br>
+            <input name="gender" type="radio">male<br>
+            <input name="gender" type="radio">female<br>
+            <input type="submit"><br>
+        
+        </form>
+    
+    </body>
+
+</html>
