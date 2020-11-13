@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(151,222,195);
+          /* we can use rgba also   */
+          /*  also hex valus =#rrggbb   */
+}
+h1{
+    color: orange; 
+}
+h2{
+    color: purple;
+}
+/*  use this # before using id tag */s 
+#p1{
+    color: red;
+}
+#p2{
+    color: blue;
+}
+/*use . before class*/
+.centre{
+    color: green;
+}
