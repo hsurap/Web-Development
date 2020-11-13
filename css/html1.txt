@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <title> My Site </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    
+    </head>
+    
+    <body>
+        
+        <h1 id="first-heading"> HEADING </h1>
+        <button>like</button>
+        <button>
+            <span class="material-icons">
+            thumb_up</span>
+        </button>
+        <br><br><br>
+        <a href="https://github.com/">SIMPLE LINK </a>
+        <div class="top-banner">
+            
+            <p>this is paragraph</p>
+            <h1>this is a heading</h1>
+        
+        </div>
+        
+        <span class="line1">this is line 1</span>
+        <span class="line2">this is line 2</span>
+               <!--   by div element are placed top to down      -->
+               <!--   by span element are placed right to each other     -->
+    
+    </body>
+
+</html>

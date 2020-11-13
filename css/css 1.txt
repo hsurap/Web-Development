@@ -1,0 +1,55 @@
+#first-heading{
+    background-color: darkgoldenrod;
+    padding: 20px;
+    margin-top: 40px;
+    font-family:"Lucida Console", Courier, monospace;
+    font-style: italic;
+    font-size: 30px;
+       /* 1em =16px    */
+}
+body{
+    background-image: url(https://images.wallpapersden.com/image/download/instagram-gradient_a2pmbm2UmZqaraWkpJRmZ21lrWxnZQ.jpg);
+}
+a:link{
+    color: green;
+        /*  remove underline   */
+    text-decoration: none;
+     /*  making link as button  */
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: sandybrown;
+}
+a:visited{
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: sandybrown;
+}
+a:hover{
+    color: deeppink;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: sandybrown;
+}
+a:active{
+    color: yellow;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: sandybrown;    
+}
+.top-banner{
+    color: purple;
+}
+.line1{
+    color: aqua;
+}
+.line2{
+    color: olivedrab
+}
