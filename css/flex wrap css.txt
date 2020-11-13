@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+/*    flex-direction: column;  */
+    background-color: yellow;
+   /*  when we minimize screen content will go down  */
+    flex-wrap: wrap;
+}
+.a{
+    min-width: 500px;
+    height: 150px;
+    background-color: orange;
+         /*  to divide this flex into full colum we use flex  */
+    flex-grow: 1; 
+            /*  here 1 is proportion means 1:1:1 ration   */
+}
+.b{
+    min-width: 500px;
+       /* min width means 150 should min and it can extend as many it can   */
+    height: 150px;
+    background-color: white;
+    flex-grow: 1;
+}
+.c{
+    min-width: 500px;
+    height: 150px;
+    background-color: green;
+    flex-grow: 1;
+}
